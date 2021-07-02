@@ -13,6 +13,12 @@ add_subdirectory (cmake/phake)
 # if (NOT TARGET ph_coroutines)
 # 	add_subdirectory (dependencies/ph_coroutines)
 # endif ()
+
+if (NOT TARGET ph_data_structures)
+	add_subdirectory (dependencies/ph_data_structures)
+endif ()
+
+
 if (NOT TARGET ph_concepts)
 	add_subdirectory (dependencies/ph_concepts)
 endif ()
