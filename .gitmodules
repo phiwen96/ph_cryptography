@@ -4,3 +4,6 @@
 [submodule "dependencies/ph_concepts"]
 	path = dependencies/ph_concepts
 	url = https://github.com/phiwen96/ph_concepts
+[submodule "dependencies/ph_data_structures"]
+	path = dependencies/ph_data_structures
+	url = https://github.com/phiwen96/ph_data_structures
