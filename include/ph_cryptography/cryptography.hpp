@@ -1,7 +1,8 @@
 #pragma once
 #include <ph_concepts/concepts.hpp>
 
-namespace ph::cryptography{
+namespace ph::cryptography
+{
     
     
     template <typename T>
